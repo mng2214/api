@@ -1,2 +1,4 @@
-package get;public class StarWars {
+package get;
+
+public class StarWars {
 }
