@@ -115,12 +115,33 @@ public class StarWars {
         RestAssured.baseURI = "https://swapi.dev";
         RestAssured.basePath = "/api/people/";
 
-        RestAssured.given().accept(ContentType.JSON).log().all() //prints only request
+        Response response = RestAssured.given().accept(ContentType.JSON) //prints only request
                 .when().get()
-                .then().statusCode(200).log().all()
+                .then().statusCode(200)
                 .extract().response();  //prints only resp
+
+        StarWarsPojo parsedResponse = response.as(StarWarsPojo.class);
+        int actualTotalCharactersCount = parsedResponse.getResults().size(); // counting chars on page
+        String nextUrl = parsedResponse.getNext(); //gets value of next field from Json response
+        while (nextUrl != null) {
+            // make a get call to next url
+            // counts chars from response
+            // get next page url
+            response = RestAssured.given().accept(ContentType.JSON)
+                    .when().get(nextUrl)
+                    .then().statusCode(200)
+                    .contentType(ContentType.JSON) // validation if response in json format  OR .contentType("application/json")
+                    .extract().response();
+
+            parsedResponse = response.as(StarWarsPojo.class);
+            actualTotalCharactersCount += parsedResponse.getResults().size();
+            nextUrl = parsedResponse.getNext();
+
+        }
+        Assert.assertEquals(parsedResponse.getCount(), actualTotalCharactersCount); //validating count
 
 
     }
+
 
 }

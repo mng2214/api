@@ -5,22 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1343cfa1-a1da-42de-bebd-f053aac68e44" name="Changes" comment="a">
-      <change afterPath="$PROJECT_DIR$/src/test/java/get/Pokemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/get/ReqRes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/get/coyote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/AbilitiesPokemonPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/AbilityPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/PokemonPage1Pojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/PokemonPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/ResultsPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/ResultsPokemonPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/StarWarsPojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/PetPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/post/PetStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/PayloadUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/get/StarWars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get/StarWars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/BrowserUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/DriverHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/DriverHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojo/PokemonPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojo/PokemonPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojo/ResultsPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojo/ResultsPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojo/StarWarsPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojo/StarWarsPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/BrowserUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ConfigReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/DriverHelper.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +64,38 @@
       <recent name="C:\BASE\CODEFISH\MYPROJECTS\api\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StarWars.homeworkSW">
+  <component name="RunManager" selected="JUnit.PetStore">
+    <configuration name="PetStore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="post.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="post" />
+      <option name="MAIN_CLASS_NAME" value="post.PetStore" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetStore.createPetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="post.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="post" />
+      <option name="MAIN_CLASS_NAME" value="post.PetStore" />
+      <option name="METHOD_NAME" value="createPetTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StarWars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api" />
       <extension name="coverage">
@@ -80,38 +107,6 @@
       <option name="PACKAGE_NAME" value="get" />
       <option name="MAIN_CLASS_NAME" value="get.StarWars" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StarWars.getSWChars (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="get.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="get" />
-      <option name="MAIN_CLASS_NAME" value="get.StarWars" />
-      <option name="METHOD_NAME" value="getSWChars" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StarWars.getSWDeserialized" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="get.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="get" />
-      <option name="MAIN_CLASS_NAME" value="get.StarWars" />
-      <option name="METHOD_NAME" value="getSWDeserialized" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PetStore" />
+        <item itemvalue="JUnit.PetStore.createPetTest" />
+        <item itemvalue="JUnit.StarWars" />
         <item itemvalue="JUnit.StarWars.homeworkSW" />
         <item itemvalue="JUnit.StarWars.homework" />
-        <item itemvalue="JUnit.StarWars.getSWDeserialized" />
-        <item itemvalue="JUnit.StarWars" />
-        <item itemvalue="JUnit.StarWars.getSWChars (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680749735139</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="a">
+      <created>1681569365552</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681569365552</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
