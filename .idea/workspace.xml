@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1343cfa1-a1da-42de-bebd-f053aac68e44" name="Changes" comment="a">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/PetPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/post/PetStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/PayloadUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/get/StarWars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get/StarWars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojo/PokemonPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojo/PokemonPojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojo/ResultsPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojo/ResultsPojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojo/StarWarsPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojo/StarWarsPojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/BrowserUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ConfigReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/DriverHelper.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/BASE/CODEFISH/MYPROJECTS/Cucumber",
+    "last_opened_file_path": "C:/BASE/CODEFISH/MYPROJECTS/b15java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -190,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681569365552</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="a">
+      <created>1681589306004</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681589306004</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
