@@ -16,16 +16,16 @@ public class Pokemon {
     public void pokemonGetWithPojo() {
         RestAssured.baseURI = "https://pokeapi.co/api/v2/pokemon";
         Response response = RestAssured.given().header("Accept", "application/json")
-                .queryParam("limit", "1279")
+                .queryParam("limit", "1281")
                 .when().get().then()
                 .statusCode(200).extract().response();
         PokemonPojo deserializedResp = response.as(PokemonPojo.class);
         int actualCount = deserializedResp.getResults().size();
-        int expectedCount = 1279;
+        int expectedCount = 1281;
         Assert.assertEquals(expectedCount, actualCount);
-        Assert.assertEquals(1279, deserializedResp.getCount());
+        Assert.assertEquals(expectedCount, deserializedResp.getCount());
         List<ResultsPokemonPojo> allPokemon = deserializedResp.getResults();
-        Assert.assertEquals(1279, allPokemon.size());
+        Assert.assertEquals(expectedCount, allPokemon.size());
         for (ResultsPokemonPojo pikachu : allPokemon) {
             if (pikachu.getName().equalsIgnoreCase("pikachu")) {
                 System.out.println(pikachu.getUrl());

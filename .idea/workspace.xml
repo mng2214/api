@@ -5,7 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1343cfa1-a1da-42de-bebd-f053aac68e44" name="Changes" comment="a">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/delete/PetStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get/Football.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/CompetitionsPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/FootBallPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/SlackMessagePojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/SlackPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/post/Slack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/put/PetStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runner/RunnerPetstore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/serialization/Serialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/PetstoreStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Petstore.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pet.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/get/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojo/PokemonPage1Pojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojo/PokemonPage1Pojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojo/ResultsPokemonPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojo/ResultsPokemonPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/PayloadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/PayloadUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +58,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/BASE/CODEFISH/MYPROJECTS/b15java",
+    "last_opened_file_path": "C:/BASE/CODE/MYPROJECTS/loadCalls",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -53,39 +72,82 @@
       <recent name="C:\BASE\CODEFISH\MYPROJECTS\api\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PetStore">
-    <configuration name="PetStore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: Petstore">
+    <configuration name="Feature: Petstore" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Petstore.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="api" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Petstore" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="post.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="post" />
-      <option name="MAIN_CLASS_NAME" value="post.PetStore" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PetStore.createPetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Get non existing pet" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Petstore.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="api" />
+      <option name="NAME_FILTER" value="^Get non existing pet$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Get non existing pet$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Get non existing pet" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="post.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="post" />
-      <option name="MAIN_CLASS_NAME" value="post.PetStore" />
-      <option name="METHOD_NAME" value="createPetTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: List pets API" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Petstore.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="api" />
+      <option name="NAME_FILTER" value="^List pets API$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^List pets API$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: List pets API" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Football.advancedRestAssuredTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="get.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="get" />
+      <option name="MAIN_CLASS_NAME" value="get.Football" />
+      <option name="METHOD_NAME" value="advancedRestAssuredTest2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StarWars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Football.football" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api" />
       <extension name="coverage">
         <pattern>
@@ -94,39 +156,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="get" />
-      <option name="MAIN_CLASS_NAME" value="get.StarWars" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StarWars.homework" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="get.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="get" />
-      <option name="MAIN_CLASS_NAME" value="get.StarWars" />
-      <option name="METHOD_NAME" value="homework" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StarWars.homeworkSW" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="get.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="get" />
-      <option name="MAIN_CLASS_NAME" value="get.StarWars" />
-      <option name="METHOD_NAME" value="homeworkSW" />
+      <option name="MAIN_CLASS_NAME" value="get.Football" />
+      <option name="METHOD_NAME" value="football" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PetStore" />
-        <item itemvalue="JUnit.PetStore.createPetTest" />
-        <item itemvalue="JUnit.StarWars" />
-        <item itemvalue="JUnit.StarWars.homeworkSW" />
-        <item itemvalue="JUnit.StarWars.homework" />
+        <item itemvalue="Cucumber Java.Feature: Petstore" />
+        <item itemvalue="Cucumber Java.Scenario: Get non existing pet" />
+        <item itemvalue="Cucumber Java.Scenario: List pets API" />
+        <item itemvalue="JUnit.Football.football" />
+        <item itemvalue="JUnit.Football.advancedRestAssuredTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681589306004</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="a">
+      <created>1681656002423</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681656002423</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
